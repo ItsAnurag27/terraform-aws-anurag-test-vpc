@@ -1,6 +1,4 @@
 #terraform-aws-vpc
-
-
 ##Overview
  this terraform module creates an aws vpc with a given CIDR block. is also creates multiple subnets (public and private), and for public subnets , it sets up on an internet gateway(IGW) and appropriate route tables.
 
